@@ -1,0 +1,85 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.header-nav{
+  background-color: rgb(22, 26, 27);
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.contact > div >img {
+  height: 35px;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-top{
+  width: 120px;
+}
+
+
+
+.services-section{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card{
+  padding-top: 20px;
+  background-color: rgb(15, 15, 48);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px;
+  cursor: pointer;
+}
+
+.card :hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow on hover */
+  transform: scale(1.05); /* Scale up the card on hover */
+  transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+
+.services-color{
+  background-color: rgb(15, 15, 48);
+}
+
+.card-hover{
+  cursor: pointer;
+}
+
+.card-heading{
+  color: aliceblue;
+}
+
+.inquiry-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link{
+  color: rgb(170, 176, 182);
+}
+
+.contact-button{
+  background-color: black;
+}
+.inquiry-button{
+  background-color: rgb(5, 20, 57);
+}
