@@ -83,3 +83,12 @@ body{
 .inquiry-button{
   background-color: rgb(5, 20, 57);
 }
+
+
+
+.card-hover:hover {
+/* Change the background color */
+  transform: scale(1.05); /* Scale the element slightly */
+}
+
+/* Style the image inside card-hover */
